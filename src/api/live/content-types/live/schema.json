@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lives",
+  "info": {
+    "singularName": "live",
+    "pluralName": "lives",
+    "displayName": "live",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "linkname": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
