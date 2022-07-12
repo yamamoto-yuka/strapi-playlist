@@ -44,3 +44,16 @@ Content-Type:  application/json
     "Claim_name": "Test Name"
   }
 }
+
+
+###
+POST https://cms.yukayamamoto.me/api/leads
+Content-Type: application/json
+
+{
+   "data":{
+    "Name":"Test",
+    "Email":"test@tes.com",
+    "Message":"Some test message from local"
+   }
+}
